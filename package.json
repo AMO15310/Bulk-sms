@@ -1,0 +1,16 @@
+{
+  "name": "bulk-sms",
+  "version": "1.0.0",
+  "description": "A Bulk sms sending endpoint using bulksms web service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --watch ./src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  }
+}
